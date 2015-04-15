@@ -1,0 +1,16 @@
+import java.util.*;
+public class bilanganGenap
+{public static void main (String [] args)
+{Scanner k = new Scanner (System.in);
+System.out.print("Masukkan jumlah bilangan genap : ");
+int n= k.nextInt();
+int i= 1;
+int bilgenap=0;
+while (i<=n)
+{
+System.out.println("bil genap ke: " + i +"=" +bilgenap);
+bilgenap +=2;
+		i++;
+		}
+	}
+}
